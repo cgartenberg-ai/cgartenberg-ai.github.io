@@ -10,3 +10,8 @@
 @media(max-width:760px){.research-group>h2,.research-group>h3{font-size:26px}.group-description{font-size:18px}.research-group>.text-link{margin-left:48px}.editorial-initiative{grid-template-columns:1fr;gap:16px;padding:30px 0}.editorial-initiative h2{font-size:27px}.editorial-initiative div>p{font-size:19px}}
 
 .press-list{list-style:none;margin:0;padding:0}.press-list li{margin:0 0 1.7rem}.press-list p{margin:0 0 .35rem}.press-list a{line-height:1.4}
+
+/* A fuller profile, with the research statement retained below. */
+main{padding-bottom:50px}.intro{grid-template-columns:340px minmax(0,1fr);gap:36px 48px;align-items:start}.portrait-panel{margin:0;display:block}.portrait-panel img{width:100%;height:auto;aspect-ratio:auto;filter:none;display:block}.intro h1{font-size:48px;margin:0 0 20px;line-height:1.08}.appointment{font-size:21px;line-height:1.5;margin:0 0 22px}.profile-facts{font-size:18px;line-height:1.55}.profile-facts p{margin:0 0 20px}.intro .intro-links{flex-wrap:wrap;gap:12px 23px;margin-top:24px}.intro>.bio{grid-column:1/-1;max-width:none;font-size:21px;line-height:1.5}.intro>.bio p{margin:0 0 20px}.editorial-initiative{grid-template-columns:1fr;gap:0}.linkedin-description{font-size:18px;max-width:640px;margin-top:25px}
+@media(max-width:960px){.intro{grid-template-columns:280px minmax(0,1fr);gap:32px}.intro h1{font-size:40px}}
+@media(max-width:760px){.intro{grid-template-columns:1fr;gap:28px}.portrait-panel{display:block;max-width:320px}.portrait-panel img{width:100%}.intro h1{font-size:42px}.intro>.bio{grid-column:auto}.intro-copy{grid-row:2}.portrait-panel{grid-row:1}.profile-facts{font-size:18px}}
